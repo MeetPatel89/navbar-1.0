@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
+
+:root {
+  --background: #07020D;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}

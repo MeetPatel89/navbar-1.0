@@ -1,3 +1,4 @@
+import './App.css';
 
 function App() {
   return (
@@ -21,10 +22,13 @@ function App() {
             </li>
           </ul>
         </nav>
-        <label htmlFor='nav-toggle' className='nav-toggle-label' >
-        <span></span>
+        <label htmlFor='nav-toggle' className='nav-toggle-label'>
+          <span></span>
         </label>
       </header>
+      
+        <p>Hello Navbar!</p>
+      
     </>
   );
 }
