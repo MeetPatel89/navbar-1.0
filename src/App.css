@@ -1,3 +1,47 @@
+/* Navigation Styles */
+
 header {
-  background: var(--background);
+  background: var(--backgroundDark);
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  color: var(--textDarkBackground);
+}
+
+.name {
+  font-family: 'Amatic SC', cursive;
+}
+
+nav {
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  left: 0;
+  background: var(--backgroundDark);
+  width: 100%;
+  border-bottom: 3px solid var(--shinyGreen);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+nav a {
+  color: var(--textDarkBackground);
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: var(--shinyGreen);
 }

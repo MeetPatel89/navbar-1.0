@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 :root {
-  --background: #07020d;
+  --backgroundDark: #07020d;
+  --backgroundLight: #34312d;
+  --textDarkBackground: #f4f4f8;
+  --shinyGreen: #31e981;
 }
 
 *,
@@ -12,14 +16,7 @@
 
 body {
   margin: 0;
-  background: #222;
+  background: var(--backgroundLight);
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
-}
-
-header {
-    text-align: center;
-    position: fixed;
-    z-index: 999;
-    width: 100%;
 }
