@@ -8,6 +8,7 @@ header {
   width: 100%;
   top: 0;
   color: var(--textDarkBackground);
+  padding: 0 0 15px 15px;
 }
 
 .name-logo {
