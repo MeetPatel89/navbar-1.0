@@ -10,8 +10,10 @@ header {
   color: var(--textDarkBackground);
 }
 
-.name {
+.name-logo {
   font-family: 'Amatic SC', cursive;
+  margin: 0;
+  font-size: 3rem;
 }
 
 nav {

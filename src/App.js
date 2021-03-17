@@ -1,10 +1,13 @@
 import './App.css';
+import logo from './images/nautilus.png'
 
 function App() {
   return (
     <>
       <header>
-        <h1 className='name'>Meet Patel</h1>
+        <h1 className='name-logo'>
+          Meet Patel <img src={logo} alt='logo' />
+        </h1>
         <input type='checkbox' id='nav-toggle' className='nav-toggle' />
         <nav>
           <ul>
@@ -26,9 +29,6 @@ function App() {
           <span></span>
         </label>
       </header>
-      
-        <p>Hello Navbar!</p>
-      
     </>
   );
 }
