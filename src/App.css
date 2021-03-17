@@ -49,6 +49,10 @@ nav a:hover {
   color: var(--shinyGreen);
 }
 
+.nav-toggle {
+  display: none;
+}
+
 .nav-toggle:checked + nav {
   display: block;
 }

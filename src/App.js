@@ -26,7 +26,7 @@ function App() {
           </ul>
         </nav>
         <label htmlFor='nav-toggle' className='nav-toggle-label'>
-          <span></span>
+          <span>X</span>
         </label>
       </header>
     </>
