@@ -4,7 +4,6 @@ import { useState } from 'react';
 import HamburgerMenu from 'react-hamburger-menu';
 
 function App() {
-  const [count, setCount] = useState(0);
   const [open, setOpen] = useState(false);
 
   const handleClick = () => {
@@ -36,7 +35,12 @@ function App() {
         </nav>
         <label htmlFor='nav-toggle' className='nav-toggle-label'>
           <span>
-            <HamburgerMenu isOpen={open} menuClicked={handleClick} color='white' height={20} />
+            <HamburgerMenu
+              isOpen={open}
+              menuClicked={handleClick}
+              color='white'
+              height={20}
+            />
           </span>
         </label>
       </header>
