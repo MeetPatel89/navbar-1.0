@@ -24,6 +24,7 @@ nav {
   background: var(--backgroundDark);
   width: 100%;
   border-bottom: 3px solid var(--shinyGreen);
+  display: none;
 }
 
 nav ul {
@@ -46,4 +47,8 @@ nav a {
 
 nav a:hover {
   color: var(--shinyGreen);
+}
+
+.nav-toggle:checked + nav {
+  display: block;
 }
