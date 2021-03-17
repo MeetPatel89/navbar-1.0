@@ -40,6 +40,7 @@ function App() {
               menuClicked={handleClick}
               color='white'
               height={20}
+              animationDuration={0.4}
             />
           </span>
         </label>

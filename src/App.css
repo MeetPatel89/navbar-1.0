@@ -19,7 +19,7 @@ header {
 }
 
 .border-bottom {
-  border-bottom: var(--shinyGreen)
+  border-bottom: var(--shinyGreen);
 }
 
 nav {
@@ -29,8 +29,10 @@ nav {
   left: 0;
   background: var(--backgroundDark);
   width: 100%;
-  display: none;
   border-bottom: 3px solid var(--shinyGreen);
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 0.4s ease-in-out;
 }
 
 nav ul {
@@ -49,6 +51,8 @@ nav a {
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 0.15s ease-in-out;
 }
 
 nav a:hover {
@@ -60,7 +64,12 @@ nav a:hover {
 }
 
 .nav-toggle:checked + nav {
-  display: block;
+  transform: scale(1, 1);
+}
+
+.nav-toggle:checked + nav a {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out 0.25s;
 }
 
 label > span > div {
@@ -69,6 +78,6 @@ label > span > div {
 
 label {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 15px;
 }
