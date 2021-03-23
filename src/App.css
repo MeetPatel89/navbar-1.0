@@ -8,14 +8,14 @@ header {
   width: 100%;
   top: 0;
   color: var(--textDarkBackground);
-  padding: 0 0 15px 15px;
+  padding: 10px;
   border-bottom: 3px solid var(--shinyGreen);
 }
 
 .name-logo {
   font-family: 'Amatic SC', cursive;
   margin: 0;
-  font-size: 3rem;
+  font-size: 3.2rem;
 }
 
 .border-bottom {
@@ -32,7 +32,7 @@ nav {
   border-bottom: 3px solid var(--shinyGreen);
   transform: scale(1, 0);
   transform-origin: top;
-  transition: transform 0.4s ease-in-out;
+  transition: transform 0.25s ease-in-out;
 }
 
 nav ul {
@@ -52,7 +52,7 @@ nav a {
   font-size: 1.2rem;
   text-transform: uppercase;
   opacity: 0;
-  transition: opacity 0.15s ease-in-out;
+  transition: opacity 0.10s ease-in-out;
 }
 
 nav a:hover {
@@ -116,6 +116,7 @@ label {
 
   nav li {
     margin-left: 3em;
+    font-weight: 700;
   }
 
   nav a::before {

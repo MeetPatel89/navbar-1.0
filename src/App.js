@@ -14,7 +14,7 @@ function App() {
     <>
       <header>
         <h1 className='name-logo'>
-          Meet Patel <img src={logo} alt='logo' />
+          Meet Patel 
         </h1>
         <input type='checkbox' id='nav-toggle' className='nav-toggle' />
         <nav>
@@ -40,7 +40,7 @@ function App() {
               menuClicked={handleClick}
               color='white'
               height={20}
-              animationDuration={0.4}
+              animationDuration={0.25}
             />
           </span>
         </label>
