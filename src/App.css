@@ -81,3 +81,14 @@ label {
   top: 45%;
   left: 15px;
 }
+
+@media screen and (min-width: 850px) {
+  .nav-toggle-label {
+    display: none;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
+  }
+}
