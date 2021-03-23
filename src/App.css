@@ -106,6 +106,7 @@ label {
 
   nav a {
     opacity: 1;
+    position: relative;
   }
 
   nav ul {
@@ -115,5 +116,22 @@ label {
 
   nav li {
     margin-left: 3em;
+  }
+
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background: var(--shinyGreen);
+    position: absolute;
+    top: -0.75em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 300ms;
+  }
+
+  nav a:hover::before {
+    transform: scale(1, 1);
   }
 }
